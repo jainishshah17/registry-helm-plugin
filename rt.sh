@@ -14,11 +14,16 @@ function latest {
     list_plugin_versions | head -n 1
 }
 
+function print{
+    echo "Hello World"
+}
+
+
 case "$1" in
   list-plugin-versions)
     list_plugin_versions
     ;;
   *)
-    $HELM_PLUGIN_DIR/appr helm $@
+    print
     ;;
 esac
