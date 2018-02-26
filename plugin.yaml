@@ -1,0 +1,10 @@
+name: "rt"
+version: "1.0.0"
+usage: "rt-registry client to Helm"
+description: |-
+  This plugin provides rt-registry client to Helm.
+  usage:
+    $ helm rt
+ignoreFlags: false
+useTunnel: false
+command: "$HELM_PLUGIN_DIR/rt.sh"
