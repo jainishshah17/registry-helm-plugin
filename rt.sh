@@ -7,7 +7,7 @@ function list_plugin_versions {
   else
     local GET="wget -q -O -"
   fi
-  $GET https://api.github.com/repos/app-registry/appr/tags |grep name | cut -d'"' -f 4
+  $GET https://api.github.com/repos/jainishshah17/registry-helm-plugin/tags |grep name | cut -d'"' -f 4
 };
 
 function latest {
