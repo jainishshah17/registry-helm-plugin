@@ -14,7 +14,7 @@ function latest {
     list_plugin_versions | head -n 1
 }
 
-function print{
+function print {
     echo "Hello World"
 }
 
