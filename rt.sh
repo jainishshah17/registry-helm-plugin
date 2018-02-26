@@ -15,17 +15,14 @@ function latest {
 }
 
 function config {
-    echo "Hello World"
     $HELM_PLUGIN_DIR/jfrog rt config --url $1 --user $2 --apikey $3 --interactive false
 }
 
 function print {
-    echo "Hello World"
     $HELM_PLUGIN_DIR/jfrog -v
 }
 
 function push {
-    echo "Hello World"
     $HELM_PLUGIN_DIR/jfrog rt u "$1" $2
 }
 
